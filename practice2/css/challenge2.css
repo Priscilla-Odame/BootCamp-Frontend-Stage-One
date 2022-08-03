@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.container{
+    margin: 100px auto;
+    border: 4px solid black;
+    width: 825px;
+}
+
+h1,h3{
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    background-color: #f7f7f7;
+    font-size: 25px;
+
+}
+
+.button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    border-top: 4px solid black;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.shipping{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+a:link, a:visited{
+    color: black;
+    display: inline-block;
+    margin-top: 10px;  
+}
+
+a:hover, a:active{
+    text-decoration: none;
+}
+
+h3{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: square;
+    margin-left: 18px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+li:last-child{
+    margin-bottom: 0;
+}

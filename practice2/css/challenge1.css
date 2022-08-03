@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    width: 50%;
+}
+
+.heading{
+    color: #1098ad;
+    background-color: #f7f7f7;
+
+}
+
+.main-content{
+
+}
+
+.related-post{
+
+}
+
+h1,h3{
+    color: #1098ad;
+}
